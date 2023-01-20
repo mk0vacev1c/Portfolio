@@ -1,0 +1,12 @@
+$mainColor: #51D790;
+$backC: #030422;
+$txtC: aliceblue;
+$navbarTxtC: #551A8b;
+
+$width: 768px;
+
+@mixin mobile {
+    @media (max-width: #{$width}){
+        @content
+    }
+}
